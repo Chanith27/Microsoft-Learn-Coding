@@ -1,0 +1,14 @@
+{
+  enterprise(slug: "enterprise-name") {
+    organizations(first: 50) {
+      nodes {
+        name
+        billingInfo {
+          totalSeats
+          seatsUsed
+          seatsAvailable
+        }
+      }
+    }
+  }
+}
