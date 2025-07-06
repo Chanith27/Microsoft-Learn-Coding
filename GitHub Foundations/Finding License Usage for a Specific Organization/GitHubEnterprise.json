@@ -1,0 +1,9 @@
+{
+  organization(login: "org-name") {
+    billingInfo {
+      totalSeats
+      seatsUsed
+      seatsAvailable
+    }
+  }
+}
